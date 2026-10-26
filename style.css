@@ -191,7 +191,7 @@ h1 {
 .shots figcaption { margin-top: 12px; color: var(--muted); font-size: 15.5px; }
 .shots strong { color: var(--ink); }
 
-.facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: 40px 0 0; padding: 0; list-style: none; }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 40px 0 0; padding: 0; list-style: none; }
 .facts li { padding: 18px; border-radius: 14px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02); }
 .facts strong { display: block; margin-bottom: 4px; }
 .facts span { color: var(--muted); font-size: 15px; }
@@ -261,7 +261,6 @@ footer p { margin: 0; }
 
 @media (max-width: 900px) {
   .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 620px) {
