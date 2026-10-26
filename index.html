@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Péter Erdős · software engineer, maker of Mirador</title>
+  <meta name="description" content="Péter Erdős, principal software engineer at Cloudera in Budapest, and the maker of Mirador, a canvas for coding agents.">
+  <link rel="canonical" href="https://sodre90.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Péter Erdős · software engineer, maker of Mirador">
+  <meta property="og:description" content="Principal software engineer at Cloudera in Budapest. I build cloud infrastructure at work, and Mirador, a canvas for coding agents, in my own time.">
+  <meta property="og:url" content="https://sodre90.com/">
+  <meta property="og:image" content="https://sodre90.com/assets/trailer.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0c0b16">
+  <link rel="preload" href="assets/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#"><span class="monogram" aria-hidden="true">PE</span>Péter Erdős</a>
+    <nav aria-label="Sections">
+      <a href="#mirador">Mirador</a>
+      <a href="#projects">Projects</a>
+      <a href="#work">Work</a>
+      <a href="https://github.com/sodre90">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Principal Software Engineer at Cloudera · Budapest</p>
+      <h1>I build the cloud by day, and tools that let you <span class="gradient">see</span> what coding agents do.</h1>
+      <p class="lede">I'm Péter. At Cloudera I keep customers' clusters running on AWS, Azure and GCP, around the clock. In my own time I make Mirador, a canvas where your coding agent draws what it means instead of writing walls of text, and I love tinkering with ESP32 boards and home automation.</p>
+      <div class="actions">
+        <a class="button primary" href="#mirador">See Mirador</a>
+        <a class="button" href="https://github.com/sodre90">GitHub</a>
+        <a class="button" href="https://www.linkedin.com/in/peter-erdos">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="mirador" class="mirador">
+      <div class="mirador-head">
+        <img class="app-icon" src="assets/mirador-icon.svg" alt="" width="72" height="72">
+        <div>
+          <p class="kicker">My main project</p>
+          <h2>Mirador: a canvas for your coding agent</h2>
+        </div>
+      </div>
+      <p class="mirador-lede">Writing code is no longer the slow part; reading it is. Mirador drives the agent you already use, Claude Code, opencode or pi, with your own settings, and gives it a canvas beside the conversation. It draws diagrams and mockups, asks you with pictures, and walks you through its changes and reviews.</p>
+
+      <a class="video" href="https://youtu.be/VmlHwR-yV4I">
+        <img src="assets/trailer.jpg" alt="The Mirador trailer: no more walls of text, your agent draws now" width="1280" height="720">
+        <span class="play" aria-hidden="true"></span>
+      </a>
+      <p class="caption">Watch the trailer (1:37)</p>
+
+      <div class="shots">
+        <figure>
+          <img src="assets/canvas.png" alt="The agent's sequence diagram of a checkout flow on the canvas beside the conversation" width="1600" height="1000" loading="lazy">
+          <figcaption><strong>Show.</strong> Diagrams, mockups, charts and 3D scenes instead of prose.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/ask.png" alt="The agent asks which settings layout to build, with a preview for each option" width="1600" height="1000" loading="lazy">
+          <figcaption><strong>Ask.</strong> Decisions come with a picture of each option.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/tour.png" alt="A tour of a fix: the steps on the left, the changed line marked on the right" width="1600" height="1000" loading="lazy">
+          <figcaption><strong>Tour.</strong> A walk through the code in the order it runs.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/review-flow.png" alt="A code review: the flow of the change beside its diff, with findings on their lines" width="1600" height="1000" loading="lazy">
+          <figcaption><strong>Review.</strong> Findings on their lines, posted to the pull request.</figcaption>
+        </figure>
+      </div>
+
+      <ul class="facts">
+        <li><strong>Desktop app</strong><span>macOS, Linux and Windows, updating itself</span></li>
+        <li><strong>On your phone</strong><span>Mirador for Android follows your conversations</span></li>
+        <li><strong>Plugins</strong><span>Code review, checklists, Google Docs and more, each in its own repo</span></li>
+        <li><strong>Open source</strong><span>Free on GitHub, with a new release every week or so</span></li>
+      </ul>
+
+      <div class="actions">
+        <a class="button primary" href="https://mirador.sodre90.com/">Visit mirador.sodre90.com</a>
+        <a class="button" href="https://github.com/sodre90/mirador">Star on GitHub</a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Other things I've made</h2>
+      <div class="cards">
+        <a class="card" href="https://github.com/sodre90/gpb">
+          <p class="language go">Go</p>
+          <h3>gpb</h3>
+          <p>Self-hosted Google Photos backup: a daemon that keeps your library on a disk you own, with a web page to choose what it copies.</p>
+        </a>
+        <a class="card" href="https://github.com/sodre90/term-bridge">
+          <p class="language go">Go</p>
+          <h3>term-bridge</h3>
+          <p>Reach the coding agents in your terminals, in cmux on a Mac or tmux on a Linux box, from an Android phone, through a relay.</p>
+        </a>
+        <a class="card" href="https://github.com/sodre90/agy-proxy">
+          <p class="language go">Go</p>
+          <h3>agy-proxy</h3>
+          <p>An unofficial proxy that offers a Google AI (Antigravity/Gemini) subscription as an Anthropic Messages API, so Claude Code runs on Gemini models. Not a Google product.</p>
+        </a>
+        <a class="card" href="https://github.com/sodre90/gpconnect-macos">
+          <p class="language swift">Swift</p>
+          <h3>GPConnect for macOS</h3>
+          <p>A native menu bar app and CLI for GlobalProtect SAML VPN logins: password-free, split-tunnel OpenConnect connections through a privileged helper. Built on gp-saml-gui.</p>
+        </a>
+        <a class="card" href="https://github.com/sodre90/lidl-plus-search">
+          <p class="language typescript">TypeScript</p>
+          <h3>lidl-plus-search</h3>
+          <p>Download your Lidl Plus receipts and search what you bought, all on your own device: an Android app, and a command line tool for macOS, Linux and Windows.</p>
+        </a>
+        <a class="card" href="https://github.com/sodre90/inside-qwen-deck">
+          <p class="language html">HTML</p>
+          <h3>inside-qwen-deck</h3>
+          <p>An interactive slide deck with narration on how large language models work.</p>
+        </a>
+      </div>
+
+      <h3 class="subheading">At home: ESP32 and home automation</h3>
+      <div class="cards">
+        <article class="card tinkering">
+          <p class="language cpp">ESP32 · ESPHome · Home Assistant</p>
+          <h3>What I most like to play with</h3>
+          <p>ESP32 boards around the house, all reporting to Home Assistant through ESPHome: the Zehnder ventilation, a StackChan robot, a sourdough lid and an M5Stack Dial.</p>
+        </article>
+        <a class="card" href="https://github.com/sodre90/sourdough-m5stack">
+          <p class="language cpp">C++ · M5Stack Core Ink</p>
+          <h3>Smart sourdough lid</h3>
+          <p>A 3D-printed lid for a Weck jar that watches the starter rise, with its temperature, humidity and pressure, on an e-ink screen and in Home Assistant.</p>
+        </a>
+        <a class="card" href="https://github.com/sodre90/m5-dial-for-esphome">
+          <p class="language c">C · M5Stack Dial</p>
+          <h3>M5Stack Dial for ESPHome</h3>
+          <p>Turns the M5Stack Dial's round touch screen and knob into a remote for Home Assistant's lights, covers, climate and media players.</p>
+        </a>
+      </div>
+      <p class="all-repos"><a href="https://github.com/sodre90?tab=repositories">Everything else on GitHub →</a></p>
+    </section>
+
+    <section id="work" class="work">
+      <h2>Work</h2>
+      <ol class="timeline">
+        <li>
+          <p class="when">2019 – now</p>
+          <h3>Cloudera <span>Principal Software Engineer</span></h3>
+          <p>I provision and run Cloudera's clusters in the public cloud as a service that is up all year: cloud resources, Linux machines kept in shape with Salt, and secure links between the control plane and the clusters. I design the Java and Spring microservices behind it, with REST and gRPC APIs, running on Docker and Kubernetes across AWS, Azure and GCP.</p>
+        </li>
+        <li>
+          <p class="when">2016 – 2019</p>
+          <h3>Hortonworks <span>Senior Software Engineer</span></h3>
+          <p>Provisioning Hadoop clusters in the cloud, until Hortonworks merged with Cloudera.</p>
+        </li>
+        <li>
+          <p class="when">2014 – 2016</p>
+          <h3>K&amp;H Group <span>Java Developer</span></h3>
+          <p>The bank's e-banking application, in Java EE on WebLogic.</p>
+        </li>
+        <li>
+          <p class="when">2011 – 2014</p>
+          <h3>Nokia Siemens Networks and Nokia <span>Trainee to Software Engineer</span></h3>
+          <p>Speech codec negotiation for LTE and GSM-R networks, then clustered applications on JBoss with Cassandra and Couchbase.</p>
+        </li>
+      </ol>
+      <p class="education">BSc and MSc in software engineering, Budapest University of Technology and Economics.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Say hello</h2>
+      <p>About Mirador, the cloud, or something you're building.</p>
+      <div class="actions">
+        <a class="button primary" href="mailto:erdos.peter.bme@gmail.com">Email me</a>
+        <a class="button" href="https://www.linkedin.com/in/peter-erdos">LinkedIn</a>
+        <a class="button" href="https://github.com/sodre90">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Péter Erdős · Budapest</p>
+  </footer>
+</body>
+</html>
